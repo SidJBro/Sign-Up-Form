@@ -1,6 +1,3 @@
-
-
-
 function checkPasswords() {
 
     const password = document.getElementById('password').value;
