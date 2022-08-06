@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Milonga&display=swap');
+/* font-family: 'Courgette', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Permanent Marker', cursive; */
+
+:root {
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Berkshire Swash', cursive;
+    line-height: 26px;
+    letter-spacing: 1px;
+    
+}
+
+.main-container {
+    height: 600px;
+    width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 1px 1px 35px cornsilk;
+    border: 2px solid cornsilk;
+}
+
+.left-container {
+    position: relative;
+    width: 300px;
+    height: 100%;
+    background-image: url('images/cathedral.jpg');
+    background-size: cover;
+}
+
+.right-container {
+    position: relative;
+    background-image: url('images/candle.jpg');
+    background-size: cover;
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid cornsilk;
+    box-shadow: 0px 0px 2px cornsilk;
+}
+
+.top-right, .mid-right, .bottom-right {
+    /* font-weight: 900; */
+    font-size: 22px;
+    height: 200px;
+    /* border: 1px solid rgb(242, 209, 209); */
+    color: white;
+    display: flex;    
+}
+
+.top-right {
+    padding-left: 20px;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.mid-right {
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-right {
+    display: flex;
+    align-items: center;
+}
+
+.my-button {
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    border-color: rgb(56, 56, 56);
+    border-style: double;
+    background-color: rgb(240, 233, 233);
+    box-shadow: 0px 0px 5px cornsilk;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 18px;
+}
+
+.my-button:active {
+    background-color: cornsilk;
+    padding-top: 13px
+}
+
+.my-button:hover {
+    box-shadow: 0px 0px 10px cornsilk;
+}
+
+.my-form {
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.my-form div {
+    margin-right: 5px;
+    width: 250px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0%;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    margin-bottom: 10px;
+    border-color: cornsilk;
+    border-radius: 5px;
+}
+
+input:focus {
+    box-shadow: 0px 0px 15px cornsilk;
+}
+
+label {
+    margin: 0px;
+    font-size: 15px;
+}
