@@ -8,54 +8,51 @@
     <title>Sign Up Form</title>
 </head>
 <body>
-<div class="main-container">
-    <div class="left-container">
-
-    </div>
-    <div class="right-container">
-        <div class="top-right">
-            Do you like massive, ornate churches? How about candles? Well, we’ve got neither. This sign up form is for a completely fake website. You’ll get no churches. You’ll get no candles.<p>But try it out anyway. You know you want to.</p>
+    <div class="main-container">
+        <div class="left-container"></div>
+        <div class="right-container">
+            <div class="top-right">
+                Do you like massive, ornate churches? How about candles? Well, we’ve got neither. This sign up form is for a completely fake website. You’ll get no churches. You’ll get no candles.<p>But try it out anyway. You know you want to.</p>
+            </div>
+            <div class="mid-right">
+                <form action="" method="" class="my-form">
+                    <ul class="my-form">
+                        <div>
+                            <li>
+                                <label for="first-name">First Name</label>
+                                <input type="text" name="first-name" id="first-name" autocomplete="given-name">
+                            </li>
+                            <li>
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email">
+                            </li>
+                            <li>
+                                <label for="password">Password*</label>
+                                <input type="password" name="password" id="password" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g" required title="Either 0 OR (5 to 10 chars)">
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <label for="last-name">Last Name</label>
+                                <input type="text" name="last-name" id="last-name" autocomplete="family-name">
+                            </li>
+                            <li>
+                                <label for="phone-number">Phone Number</label>
+                                <input type="tel" name="phone-number" id="phone-number" autocomplete="tel">
+                            </li>
+                            <li>
+                                <label for="confirm-password">Confirm Password*</label>
+                                <input name="confirm-password" type="password" id="confirm-password"  required>
+                            </li>
+                        </div>    
+                    </ul>
+                </form>
+            </div>
+            <div class="bottom-right">
+                <button class="my-button">Create an Account</button>
+            </div>
         </div>
-        <div class="mid-right">
-            <form action="" method="" class="my-form">
-                <ul class="my-form">
-                    <div>
-                        <li>
-                            <label for="first-name">First Name</label>
-                            <input type="text" name="first-name" id="first-name" autocomplete="given-name">
-                        </li>
-                        <li>
-                            <label for="email">Email</label>
-                            <input type="email" name="email" id="email">
-                        </li>
-                        <li>
-                            <label for="password">Password*</label>
-                            <input type="password" name="password" id="password" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g" required title="Either 0 OR (5 to 10 chars)">
-                        </li>
-                    </div>
-                    <div>
-                        <li>
-                            <label for="last-name">Last Name</label>
-                            <input type="text" name="last-name" id="last-name" autocomplete="family-name">
-                        </li>
-                        <li>
-                            <label for="phone-number">Phone Number</label>
-                            <input type="tel" name="phone-number" id="phone-number" autocomplete="tel">
-                        </li>
-                        <li>
-                            <label for="confirm-password">Confirm Password*</label>
-                            <input name="confirm-password" type="password" id="confirm-password"  required>
-                        </li>
-                    </div>    
-                </ul>
-            </form>
-
-        </div>
-        <div class="bottom-right">
-            <button class="my-button">Create an Account</button>
-        </div>
-    </div>
-</div>  
-<script src="scripts.js"></script>  
+    </div>  
+    <script src="scripts.js"></script>  
 </body>
 </html>
